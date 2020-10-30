@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+nav{
+    display:flex;
+    justify-content:space-evenly;
+}
+.links{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap; 
+}
+.home{
+    border: 1px solid white;
+    border-radius: 3%;
+}
+.lambdalogo{
+    display:flex;
+    justify-content:left;
+}
+#box6{
+    background-color:green;
+}
+#box1{
+    background-color:teal;
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: lightgreen;
+}
+#box4{
+    background-color: orange;
+}
+#box5{
+    background-color:red;
+}
+#box7{
+    background-color:purple ;
+}
+#box8{
+    background-color: pink;
+}
+#box9{
+    background-color: darkmagenta;
+}
+#box10{
+    background-color: lightblue;
+}
+.toprow{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.skyscraper{
+    display:flex;
+    flex-wrap:wrap;
+}
+#plan{
+    display:block;
+    width:35%;
 }
